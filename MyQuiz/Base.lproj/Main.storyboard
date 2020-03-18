@@ -14,7 +14,28 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyQuiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBT-XY-rE0">
+                                <rect key="frame" x="119" y="145" width="133" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9V-5c-WRk">
+                                <rect key="frame" x="148" y="312" width="74" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="START"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pBT-XY-rE0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="CZn-6a-KCg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l9V-5c-WRk" secondAttribute="bottom" constant="313" id="YyU-Wv-adu"/>
+                            <constraint firstItem="l9V-5c-WRk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="c0o-Mj-AKY"/>
+                            <constraint firstItem="pBT-XY-rE0" firstAttribute="centerX" secondItem="l9V-5c-WRk" secondAttribute="centerX" id="jfZ-PD-Faa"/>
+                            <constraint firstItem="pBT-XY-rE0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="rhC-QM-Khd"/>
+                            <constraint firstItem="l9V-5c-WRk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="148" id="ups-SK-u2T"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
