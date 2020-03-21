@@ -95,19 +95,29 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="correct" translatesAutoresizingMaskIntoConstraints="NO" id="dkD-bw-Zdj">
+                                <rect key="frame" x="86.5" y="232.5" width="202" height="202"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="incorrect" translatesAutoresizingMaskIntoConstraints="NO" id="0DR-Wn-7Wb">
+                                <rect key="frame" x="87" y="233" width="201" height="201"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="ed2-CP-7fZ" firstAttribute="trailing" secondItem="R23-3q-LyQ" secondAttribute="trailingMargin" id="0dX-L0-wal"/>
                             <constraint firstItem="ed2-CP-7fZ" firstAttribute="top" secondItem="R23-3q-LyQ" secondAttribute="top" constant="203" id="39h-lO-tPX"/>
                             <constraint firstItem="Cqa-0D-KRN" firstAttribute="top" secondItem="IJS-6w-FAA" secondAttribute="top" constant="72" id="705-Rj-Brc"/>
+                            <constraint firstItem="dkD-bw-Zdj" firstAttribute="centerY" secondItem="R23-3q-LyQ" secondAttribute="centerY" id="8pT-hn-bgK"/>
+                            <constraint firstItem="0DR-Wn-7Wb" firstAttribute="centerX" secondItem="R23-3q-LyQ" secondAttribute="centerX" id="FhN-2e-SnE"/>
                             <constraint firstItem="IJS-6w-FAA" firstAttribute="bottom" secondItem="ed2-CP-7fZ" secondAttribute="bottom" constant="20" id="M8h-cy-BZJ"/>
+                            <constraint firstItem="dkD-bw-Zdj" firstAttribute="centerX" secondItem="R23-3q-LyQ" secondAttribute="centerX" id="YfC-dd-IOp"/>
                             <constraint firstItem="1Dw-ZZ-FRd" firstAttribute="top" secondItem="Cqa-0D-KRN" secondAttribute="bottom" constant="8.5" id="fJm-Pu-ClV"/>
                             <constraint firstItem="IJS-6w-FAA" firstAttribute="bottom" secondItem="1Dw-ZZ-FRd" secondAttribute="bottom" constant="462" id="gSl-j9-qOs"/>
                             <constraint firstItem="1Dw-ZZ-FRd" firstAttribute="leading" secondItem="ed2-CP-7fZ" secondAttribute="leading" id="kgr-hp-mxo"/>
                             <constraint firstItem="Cqa-0D-KRN" firstAttribute="leading" secondItem="IJS-6w-FAA" secondAttribute="leading" constant="23" id="nB0-3E-0Wp"/>
                             <constraint firstItem="Cqa-0D-KRN" firstAttribute="leading" secondItem="1Dw-ZZ-FRd" secondAttribute="leading" id="r2Y-jC-eFL"/>
                             <constraint firstItem="1Dw-ZZ-FRd" firstAttribute="centerX" secondItem="R23-3q-LyQ" secondAttribute="centerX" id="tiC-B0-ZGH"/>
+                            <constraint firstItem="0DR-Wn-7Wb" firstAttribute="centerY" secondItem="R23-3q-LyQ" secondAttribute="centerY" id="vrn-Pi-ZVB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IJS-6w-FAA"/>
                     </view>
@@ -117,4 +127,8 @@
             <point key="canvasLocation" x="730.39999999999998" y="116.49175412293854"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="correct" width="202" height="202"/>
+        <image name="incorrect" width="201" height="201"/>
+    </resources>
 </document>
