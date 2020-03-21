@@ -49,25 +49,66 @@
                 <viewController id="Bxe-fY-yQT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R23-3q-LyQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Q1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqa-0D-KRN">
-                                <rect key="frame" x="23" y="72" width="21" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Q1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqa-0D-KRN">
+                                <rect key="frame" x="29" y="68" width="20.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="ヤフオク！にて過去最高額で落札された商品はなんでしょう？" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Dw-ZZ-FRd">
-                                <rect key="frame" x="23" y="101" width="326" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="ヤフオク！にて過去最高額で落札された商品はなんでしょう？" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Dw-ZZ-FRd">
+                                <rect key="frame" x="23" y="93" width="328" height="104"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ed2-CP-7fZ">
+                                <rect key="frame" x="23" y="203" width="336" height="444"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWq-hW-2L6">
+                                        <rect key="frame" x="0.0" y="0.0" width="336" height="103.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="恐竜の化石"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PY-K1-sL0">
+                                        <rect key="frame" x="0.0" y="113.5" width="336" height="103.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="スペースシャトル"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Jq-ld-fKm">
+                                        <rect key="frame" x="0.0" y="227" width="336" height="103.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="無人島"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXV-c0-LbZ">
+                                        <rect key="frame" x="0.0" y="340.5" width="336" height="103.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="タイムマシン"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ed2-CP-7fZ" firstAttribute="trailing" secondItem="R23-3q-LyQ" secondAttribute="trailingMargin" id="0dX-L0-wal"/>
+                            <constraint firstItem="ed2-CP-7fZ" firstAttribute="top" secondItem="R23-3q-LyQ" secondAttribute="top" constant="203" id="39h-lO-tPX"/>
+                            <constraint firstItem="Cqa-0D-KRN" firstAttribute="top" secondItem="IJS-6w-FAA" secondAttribute="top" constant="72" id="705-Rj-Brc"/>
+                            <constraint firstItem="IJS-6w-FAA" firstAttribute="bottom" secondItem="ed2-CP-7fZ" secondAttribute="bottom" constant="20" id="M8h-cy-BZJ"/>
+                            <constraint firstItem="1Dw-ZZ-FRd" firstAttribute="top" secondItem="Cqa-0D-KRN" secondAttribute="bottom" constant="8.5" id="fJm-Pu-ClV"/>
+                            <constraint firstItem="IJS-6w-FAA" firstAttribute="bottom" secondItem="1Dw-ZZ-FRd" secondAttribute="bottom" constant="462" id="gSl-j9-qOs"/>
+                            <constraint firstItem="1Dw-ZZ-FRd" firstAttribute="leading" secondItem="ed2-CP-7fZ" secondAttribute="leading" id="kgr-hp-mxo"/>
+                            <constraint firstItem="Cqa-0D-KRN" firstAttribute="leading" secondItem="IJS-6w-FAA" secondAttribute="leading" constant="23" id="nB0-3E-0Wp"/>
+                            <constraint firstItem="Cqa-0D-KRN" firstAttribute="leading" secondItem="1Dw-ZZ-FRd" secondAttribute="leading" id="r2Y-jC-eFL"/>
+                            <constraint firstItem="1Dw-ZZ-FRd" firstAttribute="centerX" secondItem="R23-3q-LyQ" secondAttribute="centerX" id="tiC-B0-ZGH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="IJS-6w-FAA"/>
                     </view>
                 </viewController>
